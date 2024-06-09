@@ -106,6 +106,7 @@
         width: 170px;
         position: relative;
         top: 11px;
+        left: 20px;
     }
     
     .card {
@@ -131,20 +132,27 @@
         font-size: 32px;
         height: 84px;
         line-height: 41.6px;
-        width: 512px;
+        position: relative;
+        right: 30px;
+        text-align: center;
+        width: 600px;
     }
 
     
     .card__extra_paragraph {
         font-size: 18px;
+        left: 20px;
         line-height: 23.4px;
+        position: relative;
         text-align: center;
     }
     
     .card__paragraph {
         font-size: 18px;
         height: 161px;
+        left: 20px;
         line-height: 23.4px;
+        position: relative;
         text-align: center;
         width: 512px;
     }
