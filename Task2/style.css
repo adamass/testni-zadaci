@@ -192,16 +192,16 @@ body {
     }
     
     .card__heading {
-        bottom: 20px;
+        top: 20px;
         font-size: 54px;
         font-weight: 600;
         height: 59px;
-        left: 530px;
+        left: 450px;
         line-height: 59.4px;
         position: relative;
         text-align: center;
         text-transform: uppercase;
-        width: 244px;
+        width: 400px;
     }
     
     .card__paragraph {
@@ -209,12 +209,11 @@ body {
         font-size: 24px;
         font-weight: 400;
         height: 31px;
-        left: 300px;
+        left: 250px;
         line-height: 31.2px;
         position: relative;
-        top: 20px;
-        top: 25px;
-        width: 700px;
+        top: 10px;
+        width: 800px;
     }
     
     .card__btn {
@@ -223,8 +222,7 @@ body {
         height: 29px;
         padding: 0;
         position: relative;
-        right: 10px;
-        top: 40px;
+        top: 20px;
         width: 128px;
     }
 
