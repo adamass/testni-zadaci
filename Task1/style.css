@@ -54,11 +54,9 @@
 .card__header {
     bottom: 20px;
     font-size: 24px;
-    font-weight: 275;
     height: 62px;
     line-height: 31.2px;
     position: relative;
-    text-align: center;
     text-transform: uppercase;
     width: 343px;
 }
@@ -66,7 +64,6 @@
 .card__extra_paragraph {
     bottom: 25px;
     font-size: 16px;
-    font-weight: 300;
     line-height: 20.8px;
     opacity: 0;
     position: relative;
@@ -132,7 +129,6 @@
 
     .card__header {
         font-size: 32px;
-        font-weight: 275;
         height: 84px;
         line-height: 41.6px;
         width: 512px;
@@ -141,7 +137,6 @@
     
     .card__extra_paragraph {
         font-size: 18px;
-        font-weight: 300;
         line-height: 23.4px;
         text-align: center;
     }
