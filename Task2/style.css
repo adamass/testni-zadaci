@@ -212,7 +212,6 @@ body {
         left: 250px;
         line-height: 31.2px;
         position: relative;
-        top: 10px;
         width: 800px;
     }
     
@@ -222,7 +221,6 @@ body {
         height: 29px;
         padding: 0;
         position: relative;
-        top: 20px;
         width: 128px;
     }
 
@@ -233,7 +231,7 @@ body {
         height: 472px;
         left: 65px;
         position: relative;
-        top: 130px;
+        top: 90px;
         width: 1312px;
     }
 
@@ -248,16 +246,17 @@ body {
     .card__section--1 {
         position: relative;
         top: 30px;
+        right: 20px;
     }
     
     .card__section--2 {
-        left: 150px;
+        left: 105px;
         position: relative;
         top: 30px;
     }
     
     .card__section--3 {
-        left: 287px;
+        left: 230px;
         position: relative;
         top: 30px;
     }
@@ -269,41 +268,50 @@ body {
         width: 360px;
     }
 
+    .main_img {
+        /* border-radius: 100%; */
+        height: 383px;
+        /* object-fit: cover; */
+        width: 383px;
+    }
+
     .secondary_img1_1 {
-        bottom: 350px;
+        bottom: 340px;
         height: 160px;
         position: relative;
-        right: 170px;
-        rotate: -3deg;
+        right: 165px;
+        rotate: 2deg;
+        scale: 1.7;
         transform: scaleX(-1);
         width: 160px;
     }
 
     .secondary_img2_1 {
-        bottom: 113px;
+        bottom: 45px;
         height: 188.33px;
         position: relative;
-        right: 160px;
+        right: 150px;
         rotate: -3deg;
         width: 232.73px;
     }
 
     .secondary_img2_2 {
-        bottom: 527px;
+        bottom: 505px;
         height: 188.33px;
-        left: 70px;
+        left: 150px;
         position: relative;
-        rotate: 110deg;
+        rotate: 113deg;
         width: 232.73px;
     }
 
     .secondary_img3_1 {
-        bottom: 145px;
+        bottom: 85px;
         height: 188.33px;
-        left: 77px;
+        left: 155px;
         position: relative;
         scale: .85;
         width: 232.73px;
+        rotate: -5deg;
     }
 
     /* Info */
@@ -312,11 +320,11 @@ body {
         font-size: 28px;
         font-weight: 600;
         height: 80px;
+        left: 10px;
         line-height: 39.6px;
         position: relative;
-        right: 30px;
         text-align: center;
-        top: -5px;
+        top: 60px;
         width: 360px;
     }
 }
